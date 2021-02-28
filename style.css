@@ -1,14 +1,31 @@
-* {
-    background-color: #292826;
-    color: #F9D342;
-    font-family: 'Courier Prime', monospace;
+*{
+    padding: 0px;
+    margin:0px;
 }
 
 .main-container{
-    display: flex;
+    background-color: rgba(255, 0, 0, 0.589);
+    color: black;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 2em;
+    height: 100vh;
 }
-#main-heading{
-    border: blue 10px;
-    background-color: white;
-    padding: 10px;
+
+.inner-container{
+
+}
+
+#container-one{
+    /* border: 2px solid white; */
+    display:flex;
+    justify-content: center;
+    padding: 1em;
+}
+
+#container-two{
+    /* border: 2px solid black; */
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
